@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./index.css">
+        <title>Unisuam</title>
+    </head>
+    <body>
+        <header>
+            <img src="./logofaixa.png" alt="logo unisuam">
+            <h2>CENTRO UNIVERSITÁRIO AUGUSTO MOTTA</h2>
+        </header>
+        <div class="box">
+            <h1>Cadastro</h1>
+            <form>
+                <div class="personal info">
+                    <h3>Informações pessoais</h3>
+                    <input type="text" placeholder="Digite seu nome.">
+                    <input type="text" placeholder="Digite seu sobrenome.">
+                    <input type="text" placeholder="Digite seu email.">
+                    <input type="text" placeholder="Digite sua senha.">
+                    <input type="text" placeholder="Confirme sua senha.">
+                </div>
+                <hr>
+                <div class="contact info">
+                    <h3>Contato</h3>
+                    <input type="text" placeholder="Digite seu telefone.">
+                    <input type="text" placeholder="Digite seu endereço">
+                    <input type="text" placeholder="Digite sua cidade.">
+                    <input type="text" placeholder="Digite seu UF">
+                    <input type="text" placeholder="CEP">
+                    <input type="text" placeholder="Complemento">
+                </div>
+                <hr>
+                <div class="academic info">
+                    <h3>Acadêmico</h3>
+                    <div class="box-input">
+                        <input type="radio" name="curso" id="ADS" value="ADS">
+                        <label for="ADS">Análise e desenvolvimento de sistemas</label>
+                    </div>
+
+                    <div class="box-input">
+                        <input type="radio" name="curso" id="CDP" value="CDP">
+                        <label for="CDP">Ciencia da computação</label>
+                    </div>
+
+                    <div class="box-input">
+                        <input type="radio" name="curso" id="EDC" value="EDC">
+                        <label for="EDC">Engenharia da computação</label>
+                    </div>
+
+                    <div class="box-input">
+                        <input type="radio" name="curso" id="ADD" value="ADD">
+                        <label for="ADD">Análise de dados</label>
+                    </div>
+                    <br>
+                    <div class="box-input">
+                        <label for="periodo">Escolha o seu período: </label>
+                        <select name="periodo" id="periodo">
+                            <option value="1">2024.1</option>
+                            <option value="2">2024.2</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="professional info">
+                    <h3>Profissional</h3>
+                    <input type="text" placeholder="Digite o nome da empresa">
+                    <input type="text" placeholder="Digite o CNPJ da empresa">
+                    <input type="text" placeholder="Digite o seu cargo">
+                    <div class="date">
+                        <label for="inicio">Início: </label><input type="date" id="inicio">
+                    </div>
+                    <div class="date">
+                        <label for="fim">Final: </label><input type="date" id="fim">
+                    </div>
+                </div>
+                <hr>
+                <div class="comment info">
+                    <h3>Comentários</h3>
+                    <label for="comment">Observações</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
