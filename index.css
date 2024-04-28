@@ -1,11 +1,12 @@
 body{
     background-image: url("backgroud.jpg");
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 h2{
     color: white;
 }
+
 
 header{
     display: flex;
@@ -61,4 +62,18 @@ textarea{
 
 h3{
     align-self: flex-start;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    width: 30%;
+    border-radius: 15px;
+    padding: 5px;
 }
