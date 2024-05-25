@@ -77,7 +77,6 @@ input{
 }
 
 button{
-
     width: 15%;
     padding: 2%;
     border: none;
@@ -102,6 +101,7 @@ button{
     }
 
     button{
+        width: 40%;
         padding: 5%;
         border: none;
         border-radius: 15px;
